@@ -1,0 +1,97 @@
+Algoritmalarda karar yapıları, programın farklı durumlara göre farklı yollar izlemesini sağlayan yapılardır. Bu yapılar, genellikle bir koşula dayalı olarak çalışır ve programın akışını kontrol eder. Karar yapıları, algoritmaların esnek ve dinamik bir şekilde çalışmasını sağlar. Temel olarak üç tür karar yapısı vardır: 
+
+---
+
+### **1. Tek Şartlı Karar Yapısı (If Yapısı)**
+
+Bir koşulun doğru olup olmadığını kontrol eder ve koşul doğruysa bir işlem yapar. Koşul yanlışsa hiçbir şey yapmaz.
+
+**Genel Yapısı:**
+```
+Eğer (Koşul doğruysa) 
+    İşlemi yap
+```
+
+**Örnek (Pseudocode):**
+```plaintext
+if (sıcaklık > 30)
+    yaz "Hava çok sıcak."
+```
+
+---
+
+### **2. Çift Şartlı Karar Yapısı (If-Else Yapısı)**
+
+Bir koşulun doğru ya da yanlış olmasına göre iki farklı işlem yapılmasını sağlar.
+
+**Genel Yapısı:**
+```
+Eğer (Koşul doğruysa)
+    İşlemi yap
+Değilse
+    Başka bir işlemi yap
+```
+
+**Örnek (Pseudocode):**
+```plaintext
+if (sıcaklık > 30)
+    yaz "Hava çok sıcak."
+else
+    yaz "Hava normal."
+```
+
+---
+
+### **3. Çok Şartlı Karar Yapısı (Else If / Switch-Case Yapısı)**
+
+Birden fazla koşulu kontrol etmek için kullanılır. Genellikle, birden fazla koşul arasında seçim yapmak gerektiğinde tercih edilir.
+
+**Else If Yapısı (Pseudocode):**
+```plaintext
+if (sıcaklık > 30)
+    yaz "Hava çok sıcak."
+else if (sıcaklık > 20)
+    yaz "Hava ılık."
+else if (sıcaklık > 10)
+    yaz "Hava serin."
+else
+    yaz "Hava soğuk."
+```
+
+**Switch-Case Yapısı:**
+Koşul seçeneklerinin sabit değerler olduğu durumlarda kullanılır.
+
+**Örnek (Pseudocode):**
+```plaintext
+switch (gün)
+    case "Pazartesi":
+        yaz "Haftanın ilk günü."
+    case "Cuma":
+        yaz "Haftanın son iş günü."
+    default:
+        yaz "Hafta sonu."
+```
+
+---
+
+### **4. Ternary Operatörler (Kısa Koşul İfadeleri)**
+
+Bazı programlama dillerinde kısa bir koşul ifadesi yazmak için kullanılır.
+
+**Genel Yapısı:**
+```
+Sonuç = (Koşul) ? Doğru İfade : Yanlış İfade
+```
+
+**Örnek:**
+```plaintext
+mesaj = (sıcaklık > 30) ? "Hava sıcak" : "Hava normal"
+```
+
+---
+
+### **Önemli Notlar**
+- **Koşullar**: Genellikle karşılaştırma operatörleri (`==`, `!=`, `<`, `>`, `<=`, `>=`) ve mantıksal operatörler (`&&`, `||`, `!`) kullanılarak ifade edilir.
+- **Kapsam**: Karar yapılarının içindeki işlemler genellikle bloklar halinde yazılır ve bu bloklar süslü parantezler `{}` veya girinti ile belirtilir.
+
+Bu yapılar, bir algoritmanın doğru ve etkili bir şekilde çalışmasını sağlar.
