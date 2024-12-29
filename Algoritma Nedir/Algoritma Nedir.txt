@@ -1,0 +1,28 @@
+**Algoritma**, bir problemi çözmek veya belirli bir amaca ulaşmak için izlenmesi gereken adımların düzenli ve mantıklı bir şekilde sıralanmış halidir. Bilgisayar bilimlerinde, bir algoritma genellikle bir girdiyi alır, üzerinde işlem yapar ve bir çıktıyı üretir.  
+
+### Algoritmanın Temel Özellikleri
+1. **Başlangıç ve Bitiş:** Algoritma belirli bir başlangıç noktasına sahiptir ve sonunda bir sonuca ulaşır.
+2. **Adımlılık:** Algoritma, sıralı ve belirgin adımlardan oluşur.
+3. **Sonluluk:** Algoritma, sonlu sayıda adımda tamamlanır.
+4. **Belirlilik:** Her adım açıkça tanımlanmıştır, birden fazla anlam taşımamalıdır.
+5. **Girdi ve Çıktı:** Algoritma, bir veya daha fazla girdi alır ve en az bir çıktı üretir.
+
+### Algoritma Örnekleri
+1. **Sayıları Toplama Algoritması:**
+   1. İki sayı al.
+   2. Bu iki sayıyı topla.
+   3. Sonucu ekrana yazdır.
+
+2. **Bir Listenin En Büyük Elemanını Bulma:**
+   1. Listenin ilk elemanını en büyük olarak kabul et.
+   2. Listedeki diğer elemanlarla karşılaştır.
+   3. Daha büyük bir eleman bulursan, onu en büyük olarak güncelle.
+   4. Tüm elemanlar kontrol edildikten sonra en büyük elemanı döndür.
+
+### Algoritmaların Kullanım Alanları
+- **Matematik ve Problem Çözme:** Karmaşık matematiksel işlemlerin çözümünde.
+- **Bilgisayar Programlama:** Yazılım geliştirmede temel yapı taşlarıdır.
+- **Mühendislik:** Sistemlerin tasarımı ve analizi.
+- **Veri İşleme:** Büyük veri setlerinin analizinde.
+
+Bir algoritma genellikle bir **akış şeması** veya **psödo kod** ile ifade edilir ve bir bilgisayar programına dönüştürülebilir.
